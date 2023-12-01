@@ -1,0 +1,134 @@
+body{
+  height: 100vh;
+  background: #0000e6 !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  overflow: hidden;
+  border: 0 !important;
+  border-radius: 20px !important;
+  box-shadow: 0 0.5rem 1rem 0 rgb(11, 10, 10);
+}
+
+.img-left{
+  width: 45%;
+  background: url('https://lh3.googleusercontent.com/fife/APg5EOZb4fVpNgaC4y-N064dom3hGLFLkbUdqBxS9bH3qsjf_td9ue6yABmRw06nCCsarQPGQPwbSgzWQ8-fnzYRayP5le1HfBr2a4zVmBAGaxZLfopZEgXfihEW7ePm5BK-O76gmyfVmHJ6B2452FlH3jNvYYqZfPoJjvmzmrMKGh9amd8jHIZwiobQcwsxcKntZCDcoJlIyzid6Ys6m0Nvw4Z4zzBztXlZKg0M2bQLTvC-zj41o3u8nblNeapqBGgxYuitBw0p6MSdQ-zSLJmRKT3a7MeYObShC-Q8W8mQAGS4IlPJzjyIAsrRXma_UXvNj4uqN2wBe2u3oGNPkRC8VAj159amvow-P5AOB5GACgNf9mcN7jf_SKfmlViMaZycJfm-2SVRsTE1plBu7Cs0ymJ6Z_48-qyB8eqARwj1-0bJ2Vwk8GR7qSIsHzmrEfbn-SsGzopt1U6_LB7q8P3DBktgcjJ-quu2cS9zh7uuYV4j9njVtCUbg0B_W9qn9eidaq1aAdLHDVZAeJNSCdiXavq04DSvo6l3qxaTTJ5kpcfoXqnTa0PhxcZT4DWbyH4bIkYWjegsydprGeG6w4xM1wpXZCp9rc8lulT6PUFNm-i_olS70eeeldYco-O0S-clCr_n_hVacWU65W31MeN3UPMvw2FveC0mXFS-SOSIRc6lKzuw7eG2-cb7G3G1yZbK0N30dwL53xYjk6Vj4ZkAZUndNaMTsbn3475Xoes-X9dFbhpFWr8BuQkm4mB4qOCWRAZkf4amgGCA2JHYt0Ey24WIEsGokzIfzdm8Rw23VV_P4gzMUCsrPj6dB6VeKnwAwguB3rnrHGKTbd_cCpTAXN-Dow64jAUdOjbECfLk-Enqb7V9-AeZdUvoyJRStshhIzdBY6roERcWlhpz-_luSBDh5yphOduiz3W3u1RSkfkMeAgsYAYn3_XXxtDyua6v-XMUhsRNHyDQ=w2706-h1520') Left;
+  background-size: cover;
+}
+
+.card-body{
+  padding: 2rem;
+}
+
+.title{
+  margin-bottom: 2rem;
+}
+
+.form-input{
+  position: relative;
+}
+
+.form-input input{
+  width: 100%;
+  height: 45px;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  box-shadow: none;
+  border: 1px solid #320be220;
+  border-radius: 50px;
+  outline: none;
+  background: transparent;
+}
+
+.form-input span{
+  position: absolute;
+  top: 10px;
+  padding-left: 15px;
+  color: #1414de;
+}
+
+.form-input input::placeholder{
+  color: rgb(240, 236, 236);
+  padding-left: 0px;
+}
+
+.form-input input:focus, .form-input input:valid{
+  border: 2px solid #007bff;
+}
+
+.form-input input:focus::placeholder{
+  color: #454b69;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{
+  background-color: #f3f5f7 !important;
+  border: 0px;
+}
+
+.form-box button[type="submit"]{
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  background: #007bff;
+  color: #fff;
+  font-size: 90%;
+  font-weight: bold;
+  letter-spacing: .1rem;
+  transition: 0.5s;
+  padding: 12px;
+}
+
+.form-box button[type="submit"]:hover{
+  background: #030511;
+}
+
+.forget-link, .register-link{
+  color: #121212;
+  font-weight: bold;
+}
+
+.forget-link:hover, .register-link:hover{
+  color: #0e0e0e;
+  text-decoration: none;
+}
+
+.form-box .btn-social{
+  color: white !important;
+  border: 0;
+  font-weight: bold;
+}
+
+.form-box .btn-facebook{
+  background: #2117d7;
+}
+
+.form-box .btn-google{
+  background: #da3f34;
+}
+
+.form-box .btn-twitter{
+  background: #33ccff;
+}
+
+.form-box .btn-facebook:hover{
+  background: #e4e6ea;
+}
+
+.form-box .btn-google:hover{
+  background: #bf3b31;
+}
+.form-box .btn-Linkedin :hover{
+  background: #0a0e10;
+}
+
+.form-box .btn-Indeed:hover{
+  background: #10121a;
+
+  
+}
